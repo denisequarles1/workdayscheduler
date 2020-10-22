@@ -1,0 +1,84 @@
+/*Formatting for body*/
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1;
+}
+
+/*Formatting for the textarea*/
+textarea{
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+/*Formatting for the jumbotron*/
+.jumbotron {
+  text-align: center;
+  background-color: transparent;
+  color: black;
+  border-radius: 0;
+  border-bottom: 10px solid black;
+}
+
+/*Formatting for descriptions*/
+.description{
+  white-space: pre-wrap;
+}
+
+/*Formatting for time-block*/
+.time-block{
+  text-align: center;
+  border-radius: 15px;
+}
+
+/*Formatting for rows*/
+.row {
+  white-space: pre-wrap;
+  height: 80px;
+  border-top: 4px solid white;
+}
+
+/*Formatting for hour on the scheduler */
+.hour {
+  background-color: #ffffff;
+  color: #000000;
+  border-top: 1px dashed #000000;
+  text-align: right;
+}
+
+/*Formatting for meetings that occurred in the past*/
+.past {
+  background-color: #d3d3d3;
+  color: black;
+}
+
+/*Formatting for meetings currently occurring*/
+.present {
+ background-color: #ff6961;
+  color: black;
+}
+
+/*Formatting for meetings occuring in the future*/
+.future {
+  background-color: #77dd77;
+  color: black;
+}
+
+/*Formatting for save button*/
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #06AED5;
+  color: white;
+}
+
+/*Formatting for when the user hovers over the save button */
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all .3s ease-in-out;
+}
